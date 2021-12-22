@@ -2,12 +2,15 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     display: flex; 
     justify-content: center;
     align-items: center;
+    height: 100vh;
     background-color: #0f0224;
     color: #f9fafb;
     font-family: 'IBM Plex Mono', monospace;

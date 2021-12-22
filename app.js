@@ -11,10 +11,9 @@ const tick = () => {
     m = m < 10 ? "0" + m : m;
     s = s < 10 ? "0" + s : s;
 
-    const html = `
-    <span>${h}:${m}:${s}</span>`;
+    const html = `${h}:${m}:${s}`;
 
-    clock.innerHTML = html;
+    clock.textContent = html;
 };
 
 setInterval(tick, 1000);
